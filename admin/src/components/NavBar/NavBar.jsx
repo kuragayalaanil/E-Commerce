@@ -1,13 +1,11 @@
 import React from "react";
 import "./NavBar.css";
-import navlogo from "./../../assets/nav-logo.svg";
-import navProfile from "../../assets/nav-profile.svg";
+import ogLogo from "./../../assets/ogLogo.png";
 
 const NavBar = () => {
   return (
     <div className="navbar">
-      <img src={navlogo} alt="" className="nav-logo" />
-      <img src={navProfile} alt="" className="nav-profile" />
+      <img src={ogLogo} alt="" className="nav-logo" />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 .loginsignup {
   width: 100%;
   height: 95vh;
-  background: #fce3fe;
+  /* background: #fce3fe; */
   padding-top: 30px;
 }
 
@@ -9,6 +9,8 @@
   width: 580px;
   height: 630px;
   background: white;
+  box-shadow: 0px 4px 10px;
+  border-radius: 10px;
   margin: auto;
   padding: 40px 60px;
 }
@@ -34,7 +36,7 @@
   width: 460px;
   height: 72px;
   color: white;
-  background: #ff4141;
+  background: #000000;
   border: none;
   margin-top: 30px;
   font-size: 24px;
@@ -48,7 +50,7 @@
   font-weight: 500;
 }
 .loginsignup-login span {
-  color: #ff4141;
+  color: #000000;
   font-weight: 600;
   cursor: pointer;
 }
