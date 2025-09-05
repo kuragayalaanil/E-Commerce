@@ -15,7 +15,14 @@ const UserRoutes = require("./routes/UserRoutes");
 // const authMiddleware = require("./middlewares/authMiddleware");
 
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "https://your-frontend-domain.vercel.app",
+      "https://your-admin-domain.vercel.app",
+    ],
+  })
+);
 
 //Database Connection
 mongoose.connect(
